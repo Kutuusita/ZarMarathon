@@ -5,7 +5,7 @@ const Layout = ({ title, descr, urlBg, colorBg }) => {
     const backgroundImage = urlBg ? { backgroundImage: `url(${urlBg})` } : {};
     const backgroundColor = colorBg ? { backgroundColor: colorBg } : {};
     const bgStyle = Object.assign({}, backgroundImage, backgroundColor);
-    console.log(bgStyle);
+    
     return (
         <section className={s.root} style={ bgStyle } >
             <div className={s.wrapper}>

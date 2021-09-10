@@ -15,7 +15,6 @@ const App = () => {
             title = "My Beautiful Pokemon Game  Layout 1"
             descr = "Some Beautiful description about Pokemon Game"
             urlBg = {BackgroundImg1}
-            colorBg = 'red'
           />
           <Layout 
             title = "My Beautiful Pokemon Game  Layout 2"
@@ -26,7 +25,6 @@ const App = () => {
             title = "My Beautiful Pokemon Game Layout 3"
             descr = "Some Beautiful description about Pokemon Game"
             urlBg = {BackgroundImg2}
-            colorBg = 'green'
           />
           <Footer />
       </>
